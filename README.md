@@ -122,3 +122,16 @@ This repository is a **portfolio showcase** (screenshots + write-up only). Appli
 ## Contact
 
 For a technical walkthrough or similar work, reach out via your portfolio contact channel.
+
+---
+
+## Publish to GitHub (maintainer)
+
+From this folder, after [GitHub CLI](https://cli.github.com/) login:
+
+```powershell
+gh auth login
+.\push-to-github.ps1
+```
+
+Creates **https://github.com/Satan2049/igtclan-showcase** (public) and pushes `main`.
