@@ -2,6 +2,8 @@
 
 **Private client project** · Mobile-first clan platform for a live gaming community (production web + Android shell).
 
+**Live:** [https://igtclan.ir](https://igtclan.ir)
+
 ---
 
 ## Summary
@@ -12,7 +14,7 @@ End-to-end product for clan members and operators: authentication, profile and w
 |---|---|
 | **Role** | Full-stack development & deployment |
 | **Stack** | Next.js · Express · Socket.IO · MongoDB · Docker · Capacitor |
-| **Live** | Client production deployment (private codebase) |
+| **Live** | [https://igtclan.ir](https://igtclan.ir) |
 
 ---
 
@@ -45,7 +47,7 @@ A unified app with a consistent mobile shell, bilingual UI (Persian / English), 
 
 - Monorepo: `frontend` (Next.js) + `backend` (Express API)  
 - `docker-compose` for MongoDB + API + UI on a VPS  
-- Capacitor Android app loading the production URL  
+- Capacitor Android app loading [https://igtclan.ir](https://igtclan.ir)  
 
 ---
 
