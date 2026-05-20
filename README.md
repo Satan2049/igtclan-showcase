@@ -75,15 +75,15 @@ flowchart LR
 
 Gallery (capture order). All data shown is from staging/demo or redacted client content.
 
-### 01 — Splash & entry
+### 01 — Profile
 
 ![Splash and branding](./screenshots/01.jpg)
 
-### 02 — Home & news
+### 02 — Profile Setting
 
 ![Home feed and announcements](./screenshots/02.jpg)
 
-### 03 — Clan & members
+### 03 — Home & news
 
 ![Clan listing and team context](./screenshots/03.jpg)
 
@@ -95,11 +95,11 @@ Gallery (capture order). All data shown is from staging/demo or redacted client 
 
 ![Balance and deposit flow](./screenshots/05.jpg)
 
-### 06 — Tournaments & profile
+### 06 — Notifications
 
 ![Competitions and member profile](./screenshots/06.jpg)
 
-### 07 — Admin / settings
+### 07 — Login/Singup
 
 ![Operations or account settings](./screenshots/07.jpg)
 
@@ -124,16 +124,3 @@ This repository is a **portfolio showcase** (screenshots + write-up only). Appli
 ## Contact
 
 For a technical walkthrough or similar work, reach out via your portfolio contact channel.
-
----
-
-## Publish to GitHub (maintainer)
-
-From this folder, after [GitHub CLI](https://cli.github.com/) login:
-
-```powershell
-gh auth login
-.\push-to-github.ps1
-```
-
-Creates **https://github.com/Satan2049/igtclan-showcase** (public) and pushes `main`.
